@@ -1,0 +1,56 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+* {
+  box-sizing: borderbox;
+  font-family: "Catamaran", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+p {
+  color: #fff;
+}
+
+h1 {
+  font-family: Fascinate Inline, Haettenschweiler, "Arial Narrow Bold",
+    sans-serif;
+  font-size: 7rem;
+  background-image: linear-gradient(180deg, #fff, #87f1ff);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-clip: text;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(2px 2px #0085a3);
+  margin: 20px;
+}
+
+.score {
+  color: #fff;
+  font-size: 3rem;
+  margin: 0;
+}
+
+.start,
+.next {
+  border-radius: 10px;
+  border: 2px solid #d38558;
+  width: 5rem;
+  height: 2rem;
+  box-shadow: 0 4px 7px rgba(0, 0, 0, 0.2), 0 4px 7px rgba(0, 0, 0, 0.27);
+  cursor: pointer;
+  margin: 20px 0;
+  padding: 0 20px;
+  background: linear-gradient(180deg, #fff, #87f1ff);
+  outline: none;
+}
