@@ -45,12 +45,13 @@ h1 {
 .next {
   border-radius: 10px;
   border: 2px solid #d38558;
-  width: 5rem;
-  height: 2rem;
+  width: 7rem;
+  height: 3rem;
   box-shadow: 0 4px 7px rgba(0, 0, 0, 0.2), 0 4px 7px rgba(0, 0, 0, 0.27);
   cursor: pointer;
   margin: 20px 0;
   padding: 0 20px;
   background: linear-gradient(180deg, #fff, #87f1ff);
   outline: none;
+  font-size: 1.5rem;
 }
