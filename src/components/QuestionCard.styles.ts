@@ -1,7 +1,8 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
-    max-width: 800px;
+    width: 45em;
+    height: 35em;
     background: #ebfeff;
     border-radius: 10px;
     border: 2px solid #0085a3;
@@ -11,9 +12,9 @@ export const Wrapper = styled.div`
     font-size: 1rem;
 
 p {
-    font-size: 2rem;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     color:black;
   }
 `
@@ -34,8 +35,8 @@ export const ButtonWrapperProps = styled.div<ButtonWrapperProps>`
         cursor: pointer;
         user-select: none;
         font-size: 1rem;
-        height: 3rem;
-        width: 10rem;
+        height: 5rem;
+        width: 14rem;
         margin: 5px 0;
         background: ${({correct, userClicked}) =>
         correct

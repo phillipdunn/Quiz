@@ -1,4 +1,4 @@
-import styled, { createGlobalStyle } from "styled-components";
+import { createGlobalStyle } from "styled-components";
 import BGImage from "../src/images/question2.png";
 
 export const GlobalStyle = createGlobalStyle`

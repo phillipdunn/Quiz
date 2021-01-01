@@ -30,5 +30,4 @@ export const fetchQuizQuestions = async (
       question.correct_answer,
     ]),
   }));
-  console.log(data);
 };
